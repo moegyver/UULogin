@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UULogin</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="desc_username">Your username.</string>
+    <string name="desc_password">Your password A.</string>
+    <string name="usergroup">User group</string>
+    <string name="desc_usergroup">The user group you belong to. Select UpUnet-S if you are a member of Uppsala university, SLU if you are a member of SLU and Guest otherwise.</string>
+	<string-array name="usergroups">
+		<item>UpUnet-S</item>
+		<item>SLU</item>
+		<item>Guest</item>
+	</string-array>
+	<string-array name="entryvalues_usergroups">
+		<item>UpUnet-S</item>
+		<item>SLU</item>
+		<item>Guest</item>
+	</string-array>
+	<string name="usergroups_prompt">Select a user group.</string>
+	<string name="logged_in">Logged in to UpUnet-S</string>
+	<string name="login_failed">UpUnet-S login failed</string>
+</resources>

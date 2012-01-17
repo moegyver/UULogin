@@ -1,0 +1,6 @@
+.metadata/*
+*.class
+*.apk
+UULogin/bin/*
+UULogin/gen/*
+UULogin/.*

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:orderingFromXml="true">
+    <PreferenceCategory android:title="Account Settings">
+        <EditTextPreference android:name="@string/username" android:summary="@string/desc_username" android:title="@string/username" android:key="username" />
+        <EditTextPreference android:name="@string/password" android:summary="@string/desc_password" android:title="@string/password" android:key="password" android:password="true" />
+    	 <ListPreference
+                android:key="usergroup"
+                android:title="@string/usergroup"
+                android:summary="@string/desc_usergroup"
+                android:entries="@array/usergroups"
+                android:entryValues="@array/entryvalues_usergroups"
+                android:dialogTitle="@string/usergroup" />
+    </PreferenceCategory>
+</PreferenceScreen>
