@@ -92,7 +92,7 @@ public class UULoginService extends Service implements OnSharedPreferenceChangeL
 				ir.close();
 				wr.close();
 			} catch (Exception e) {
-				System.out.println(e.getMessage());
+				//System.out.println(e.getMessage());
 				System.exit(1);
 			}
 		}
